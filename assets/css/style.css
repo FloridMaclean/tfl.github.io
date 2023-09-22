@@ -1,407 +1,457 @@
-/*=============================================================
-    Authour URI: www.binarytheme.com
-    License: Commons Attribution 3.0
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Free Education Template</title>
+    <!-- BOOTSTRAP CORE STYLE CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- FONT AWESOME CSS -->
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+     <!-- FLEXSLIDER CSS -->
+<link href="assets/css/flexslider.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />    
+  <!-- Google	Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+</head>
+<body >
 
-    http://creativecommons.org/licenses/by/3.0/
-
-    100% To use For Personal And Commercial Use.
-    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+    <div class="login-popup">
+        <div class="box">
+             <div class="img-area">
+                 <div class="img">
+                 </div>
+                 <!-- <h2>Your Logo</h2> -->
+                 <img src="assets/img/dummy-image.jpeg" alt="" style="width: 180px; height: 50px;">
+             </div>
+             <div class="form">
+                 <div class="close">&times;</div>
+                 <h2>Stay Informed</h2>
+                 <form>
+                     <div class="form-group">
+                         <input type="text" placeholder="Email" class="form-control">
+                     </div>
+                     <!-- <div class="form-group">
+                         <input type="password" placeholder="Password" class="form-control">
+                     </div> -->
+                     <!-- <div class="form-group">
+                         <label><input type="checkbox">
+                             Remember Me
+                         </label>
+                     </div> -->
+                     <button type="button" class="btn">Subscribe</button>
+                 </form>
+             </div>
+        </div>
+   </div>
    
-    ========================================================  */
+ <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><img class="logo-custom" src="assets/img/logo180-50.png" alt=""  /></a>
+            </div>
+            <div class="navbar-collapse collapse move-me">
+                <ul class="nav navbar-nav navbar-right">
+                    <li ><a href="#home">HOME</a></li>
+                     <li><a href="#features-sec">FEATURES</a></li>
+                    <li><a href="#faculty-sec">FACULTY</a></li>
+                     <li><a href="#course-sec">COURSES</a></li>
+                     <li><a href="#contact-sec">CONTACT</a></li>
+                </ul>
+            </div>
+           
+        </div>
+    </div>
+      <!--NAVBAR SECTION END-->
+       <div class="home-sec" id="home" >
+           <div class="overlay">
+ <div class="container">
+           <div class="row text-center " >
+           
+               <div class="col-lg-12  col-md-12 col-sm-12">
+               
+                <div class="flexslider set-flexi" id="main-section" >
+                    <ul class="slides move-me">
+                        <!-- Slider 01 -->
+                        <li>
+                              <h3>Delivering Quality Education</h3>
+                           <h1>THE UNIQUE METHOD</h1>
+                            <a  href="#features-sec" class="btn btn-info btn-lg" >
+                                GET AWESOME 
+                            </a>
+                             <a  href="#features-sec" class="btn btn-success btn-lg" >
+                                FEATURE LIST
+                            </a>
+                        </li>
+                        <!-- End Slider 01 -->
+                        
+                        <!-- Slider 02 -->
+                        <!-- <li>
+                            <h3>Delivering Quality Education</h3>
+                           <h1>UNMATCHED APPROACH</h1>
+                             <a  href="#features-sec" class="btn btn-primary btn-lg" >
+                               GET AWESOME 
+                            </a>
+                             <a  href="#features-sec" class="btn btn-danger btn-lg" >
+                                FEATURE LIST
+                            </a>
+                        </li> -->
+                        <!-- End Slider 02 -->
+                        
+                        <!-- Slider 03 -->
+                        <!-- <li>
+                            <h3>Delivering Quality Education</h3>
+                           <h1>AWESOME FACULTY PANEL</h1>
+                             <a  href="#features-sec" class="btn btn-default btn-lg" >
+                                GET AWESOME 
+                            </a>
+                             <a  href="#features-sec" class="btn btn-info btn-lg" >
+                                FEATURE LIST
+                            </a>
+                        </li> -->
+                        <!-- End Slider 03 -->
+                    </ul>
+                </div>
+                   
+     
+              
+              
+            </div>
+                
+               </div>
+                </div>
+           </div>
+           
+       </div>
+       <!--HOME SECTION END-->   
+    <div  class="tag-line" >
+         <div class="container">
+           <div class="row  text-center" >
+           
+               <div class="col-lg-12  col-md-12 col-sm-12">
+               
+        <h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> WELCOME TO THE EDU-CENTER <i class="fa fa-circle-o-notch"></i> </h2>
+                   </div>
+               </div>
+             </div>
+        
+    </div>
+    <!--HOME SECTION TAG LINE END-->   
+         <div id="features-sec" class="container set-pad" >
+             <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line">FEATURE LIST </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s" >
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         </p>
+                 </div>
 
-/* =============================================================
-   GENERAL STYLES
- ============================================================ */
-body {
-    font-family: 'Open Sans', sans-serif;
-    line-height: 30px;
-    font-size: 14px;
-}
-
-.set-pad {
-    padding-top:35px;
-}
-.set-row-pad {
-    padding-top:30px;
-    padding-bottom:50px;
-}
-/*=====================================
-  NAVBAR STYLES 
-    ===================================*/
-
-.logo-custom {
-    max-height: 40px;
-}
-
-#menu {
-    background-color: rgba(28, 43, 75, 1);
-    color: #fff;
-    font-size: 12px;
-    font-weight: 900;
-    letter-spacing: 1px;
-    min-height: 70px;
-}
+             </div>
+             <!--/.HEADER LINE END-->
 
 
-.navbar-inverse {
-    border-color: transparent;
-}
+           <div class="row" >
+           
+               
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                     <div class="about-div">
+                     <i class="fa fa-paper-plane-o fa-4x icon-round-border" ></i>
+                   <h3 >Quality Education</h3>
+                 <hr />
+                       <hr />
+                   <p >
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo . 
+                       
+                   </p>
+               <!-- <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a> -->
+                </div>
+                   </div>
+                   <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
+                     <div class="about-div">
+                     <i class="fa fa-bolt fa-4x icon-round-border" ></i>
+                   <h3 >SYSTEMATIC APPROACH</h3>
+                 <hr />
+                       <hr />
+                   <p >
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo . 
+                       
+                   </p>
+               <!-- <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a> -->
+                </div>
+                   </div>
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
+                     <div class="about-div">
+                     <i class="fa fa-magic fa-4x icon-round-border" ></i>
+                   <h3 >ONE TO ONE STUDY</h3>
+                 <hr />
+                       <hr />
+                   <p >
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo . 
+                       
+                   </p>
+               <!-- <a href="#" class="btn btn-info btn-set"  >ASK THE EXPERT</a> -->
+                </div>
+                   </div>
+                 
+                 
+               </div>
+             </div>
+   <!-- FEATURES SECTION END-->
+    <div id="faculty-sec" >
+    <div class="container set-pad">
+             <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR FACULTY </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         </p>
+                 </div>
 
-    .navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > li > a:hover {
-        color: #FFF;
-        padding: 22px 10px;
-    }
+             </div>
+             <!--/.HEADER LINE END-->
+
+           <div class="row" >
+           
+               
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.4s">
+                     <div class="faculty-div">
+                     <img src="assets/img/dummy-image.jpeg"  class="img-rounded" style="height: 200px; width: 200px;"/>
+                   <h3 >ROXI CHI LUENA </h3>
+                 <hr />
+                         <h4>Desigining <br /> Department</h4>
+                   <p >
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo . 
+                       
+                   </p>
+                </div>
+                   </div>
+                 <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.5s">
+                     <div class="faculty-div">
+                     <img src="assets/img/dummy-image.jpeg"  class="img-rounded" style="height: 200px; width: 200px;"/>
+                   <h3 >JANE DEO ALEX</h3>
+                 <hr />
+                         <h4>Enginering <br /> Department</h4>
+                   <p >
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo . 
+                       
+                   </p>
+                </div>
+                   </div>
+               <div class="col-lg-4  col-md-4 col-sm-4" data-scroll-reveal="enter from the bottom after 0.6s">
+                     <div class="faculty-div">
+                     <img src="assets/img/dummy-image.jpeg" class="img-rounded" style="height: 200px; width: 200px;"/>
+                   <h3 >RUBY DECORSA</h3>
+                 <hr />
+                         <h4>Management <br /> Department</h4>
+                   <p >
+                       Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo . 
+                       
+                   </p>
+                </div>
+                   </div>
+                 
+               </div>
+             </div>
+        </div>
+    <!-- FACULTY SECTION END-->
+      <div id="course-sec" class="container set-pad">
+             <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line">OUR COURSES </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         </p>
+                 </div>
+
+             </div>
+             <!--/.HEADER LINE END-->
 
 
-/*=====================================
-  HOME STYLES 
-    ===================================*/
-.home-sec {
-    padding-top: 10px;
-    padding-bottom: 60px;
-    background: url(../img/header.jpg) no-repeat center center;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
+           <div class="row set-row-pad" >
+           <div class="col-lg-6 col-md-6 col-sm-6 " data-scroll-reveal="enter from the bottom after 0.4s" >
+                 <img src="assets/img/dummy-image.jpeg" class="img-thumbnail" />
+           </div>
+               <div class="col-lg-4 col-md-4 col-sm-4 col-lg-offset-1 col-md-offset-1 col-sm-offset-1">
+                   <div class="panel-group" id="accordion">
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.5s">
+                            <div class="panel-heading" >
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1" class="collapsed">
+                                  <strong>   10+</strong> ELEMETORY COURSES 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse" style="height: 0px;">
+                                <div class="panel-body">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam. Nulla eget condimentum mauris, eget tincidunt est.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.7s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="collapsed">
+                                      <strong>   250+</strong> CIGNITIVE DESIGN COURSES 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse" style="height: 0px;">
+                                <div class="panel-body">
+                                    <p>
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam. Nulla eget condimentum mauris, eget tincidunt est.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default" data-scroll-reveal="enter from the bottom after 0.9s">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3" class="collapsed">
+                                        <strong>   153+</strong> SKILL COURSES 
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse"  style="height: 0px;">
+                                <div class="panel-body">
+                                    <p>
+                                       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sagittis egestas mauris ut vehicula. Cras viverra ac orci ac aliquam. Nulla eget condimentum mauris, eget tincidunt est.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="alert alert-info" data-scroll-reveal="enter from the bottom after 1.1s" >
+                       <span style="font-size:40px;">
+                          <strong> 2500 + </strong> 
+                           <hr />
+                           Centers
+                       </span>
+                   </div>
+           </div>
+             
+                 
+                 
+               </div>
+             </div>
+      <!-- COURSES SECTION END-->
+    <div id="contact-sec"   >
+           <div class="overlay">
+ <div class="container set-pad">
+      <div class="row text-center">
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" >CONTACT US  </h1>
+                     <p data-scroll-reveal="enter from the bottom after 0.3s">
+                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                        Aenean commodo.
+                         </p>
+                 </div>
 
-    .home-sec .overlay {
-        background: rgba(38, 57, 88, 0.89);
-        min-height: 500px;
-    }
+             </div>
+             <!--/.HEADER LINE END-->
+           <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
+           
+               
+                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control "  required="required" placeholder="Your Name" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control " required="required"  placeholder="Your Email" />
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" required="required" class="form-control" style="min-height: 150px;" placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-info btn-block btn-lg">SUBMIT REQUEST</button>
+                        </div>
 
-    .home-sec h1 {
-        color: #fff;
-        font-weight: 900;
-        font-size: 50px;
-        text-transform: uppercase;
-        padding-bottom: 35px;
-    }
+                    </form>
+                </div>
 
-    .home-sec h3 {
-        text-transform: uppercase;
-    }
+                   
+     
+              
+              
+                
+               </div>
+                </div>
+          </div> 
+       </div>
+     <div class="container">
+             <div class="row set-row-pad"  >
+    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s">
+
+                    <h2 ><strong>Our Location </strong></h2>
+        <hr />
+                    <div>
+                        <h4>123 XYZ St</h4>
+                        <h4>Toronto.</h4>
+                        <h4><strong>Call:</strong>  +1 (123) 123-1234</h4>
+                        <h4><strong>Email: </strong>info@tfi.com</h4>
+                    </div>
 
 
+                </div>
+                 <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">
 
-.set-flexi {
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-    -o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0);
-    background-color: transparent;
-    border: 0px solid #000;
-    padding-top: 120px;
-}
+                    <h2 ><strong>Social Conectivity </strong></h2>
+        <hr />
+                    <div >
+                        <a href="#">  <img src="assets/img/Social/facebook.png" alt="" /> </a>
+                     <a href="#"> <img src="assets/img/Social/google-plus.png" alt="" /></a>
+                     <a href="#"> <img src="assets/img/Social/twitter.png" alt="" /></a>
+                    </div>
+                    </div>
 
-.flex-control-nav {
-    display: none!important;
-}
 
-.set-flexi a {
-    margin: 5px;
-}
-/*=====================================
-  TAG LINE STYLES 
-    ===================================*/
-
-.tag-line {
-    background: #E9E9E9;
-    color: #000;
-}
-
-    .tag-line h2 {
-        font-size: 20px;
-        font-weight: 900;
-        padding: 5px 10px 10px 5px;
-        color: #005E5A;
-    }
-
-        .tag-line h2 > i {
-            margin-left: 8px;
-            margin-right: 8px;
-        }
-/*=====================================
-  HEADER LINE STYLES 
-    ===================================*/
-.header-line {
-    font-weight: 900;
-    font-size: 25px;
-    padding-bottom: 5px;
-    padding-top: 25px;
-    color: #000;
-}
-
-h1::after {
-    content: " ";
-    border: solid 2px #2f9484;
-    display: block;
-    width: 200px;
-    margin: 12px auto;
-}
-
-/*=====================================
-  ABOUT STYLES 
-  ===================================*/
-.about-div {
-    padding: 30px;
-}
-
-.icon-round-border {
-    border: 10px double #1A94C4;
-    color: #2f9484;
-    text-align: center;
-    padding-top: 15px;
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    cursor: pointer;
-    -webkit-transition: 0.3s;
-    -moz-transition: 0.3s;
-    -o-transition: 0.3s;
-    transition: 0.3s;
-}
-
-    .icon-round-border:hover {
-        color: #fff;
-        border: 10px double #fff;
-        background-color: #1A94C4;
-        -webkit-transition: 0.3s;
-        -moz-transition: 0.3s;
-        -o-transition: 0.3s;
-        transition: 0.3s;
-    }
-
-.about-div hr {
-    border: 1px solid #1A94C4;
-}
-
-.about-div h3 {
-    font-size: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.about-div p {
-    padding-top: 10px;
-}
-
-.btn-set {
-    border-radius: 0px;
-    -webkit-border-radius: 0px;
-    -moz-border-radius: 0px;
-    margin-bottom: 20px;
-}
-/*=====================================
-  FACULTY STYLES 
-  ===================================*/
-#faculty-sec {
-    background-color: #000;
-    color: #fff;
-}
-
-    #faculty-sec .header-line {
-        color: #fff;
-    }
-.faculty-div h4 {
-    line-height:30px;
-    font-weight:700;
-}
-.faculty-div {
-    padding: 30px;
-}
-
-    .faculty-div hr {
-        border: 1px solid #1A94C4;
-    }
-
-    .faculty-div h3 {
-        font-size: 25px;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-
-    .faculty-div p {
-        padding-top: 10px;
-        padding-bottom: 15px;
-    }
-
-    .faculty-div img {
-        border: 10px double #fff;
-    }
-
-/*=====================================
-  CONTACT STYLES 
-  ===================================*/
-#contact-sec {
-    padding-top: 10px;
-    padding-bottom: 60px;
-    background: url(../img/contact.jpg) no-repeat center center;
-    padding: 0;
-    -webkit-background-size: cover;
-    background-size: cover;
-    color: #fff;
-    background-attachment: fixed;
-}
-
-#contact-sec .overlay {
-        background: rgba(0, 0, 0, 0.76);
-        min-height: 600px;
-    }
-
-    #contact-sec h1 {
-        color:#fff;
-    }
-#contact-sec .form-control{
-    background-color:rgba(255, 255, 255, 0);
-    color:#fff;
-}
-/*=====================================
-  Footer STYLES 
-  ===================================*/
-#footer {
-    padding:5px 20px;
-    background-color:#2d3d5a;
-    text-align:right;
-    color:#fff;
-    font-size:15px;
-}
-
-/*=====================================
-  Sign Up Popup STYLES 
-  ===================================*/
-
-.login-popup{
-	position: fixed;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1099;
-	background-color:rgba(0,0,0,0.6);
-	visibility: hidden;
-	opacity: 0;
-	transition: all 1s ease;
-}
-.login-popup.show{
-	visibility:visible;
-	opacity: 1;
-}
-.login-popup .box{
-	background-color:#ffffff;
-	width: 750px;
-	position: absolute;
-	left: 50%;
-	top:50%;
-	transform:translate(-50%,-50%);
-	display: flex;
-	flex-wrap: wrap;
-	opacity: 0;
-	margin-left: 50px;
-	transition: all 1s ease;
-
-}
-.login-popup.show .box{
-	opacity: 1;
-	margin-left: 0;
-}
-.login-popup .box .img-area{
-	flex:0 0 50%;
-	max-width: 50%;
-	position: relative;
-	overflow: hidden;
-	padding:30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-.login-popup .box .img-area h1{
-	font-size: 30px;
-}
-.login-popup .box .img-area .img{
-	position: absolute;
-	left:0;
-	top:0;
-	width: 100%;
-	height: 100%;
-	background-image: url('img/bg.jpg');
-	background-size: cover;
-	background-position: center;
-	animation: zoomInOut 7s linear infinite;
-	z-index: -1;
-
-}
-@keyframes zoomInOut{
-	0%,100%{
-		transform: scale(1);
-	}
-	50%{
-		transform: scale(1.1);
-	}
-}
-.login-popup .box .form{
-	flex:0 0 50%;
-	max-width: 50%;
-	padding:40px 30px;
-}
-
-.login-popup .box .form h1{
-	color:#000000;
-	font-size: 30px;
-	margin:0 0 30px;
-}
-.login-popup .box .form .form-control{
-	height: 45px;
-	margin-bottom: 30px;
-	width: 100%;
-	border:none;
-	border-bottom:1px solid #cccccc;
-	font-size: 15px;
-	color:#000000;
-}
-.login-popup .box .form .form-control:focus{
-	outline: none;
-}
-.login-popup .box .form label{
-	font-size: 15px;
-	color:#555555;
-}
-.login-popup .box .form .btn{
-	width: 100%;
-	background-color: #E91E63;
-	margin-top:40px;
-	height: 45px;
-	border:none;
-	border-radius: 25px;
-	font-size: 15px;
-	text-transform: uppercase;
-	color:#ffffff;
-	cursor: pointer;
-}
-.login-popup .box .form .btn:focus{
-	outline: none;
-}
-
-.login-popup .box .form .close{
-	position: absolute;
-	right: 10px;
-	top:0px;
-	font-size: 30px;
-	cursor: pointer;
-}
-
-/*responsive*/
-@media(max-width: 767px){
-	.login-popup .box{
-		width: calc(100% - 30px);
-	}
-	.login-popup .box .img-area{
-		display: none;
-	}
-	.login-popup .box .form{
-		flex: 0 0 100%;
-        max-width: 100%;
-	}
-}
+                </div>
+                 </div>
+     <!-- CONTACT SECTION END-->
+    <div id="footer">
+          &copy 2023 tfl.com | All Rights Reserved.
+          <!-- <a href="http://binarytheme.com" style="color: #fff" target="_blank">Design by : binarytheme.com</a> -->
+    </div>
+     <!-- FOOTER SECTION END-->
+   
+    <!--  Jquery Core Script -->
+    <script src="assets/js/jquery-1.10.2.js"></script>
+    <!--  Core Bootstrap Script -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  Flexslider Scripts --> 
+    <script src="assets/js/jquery.flexslider.js"></script>
+    <!--  Scrolling Reveal Script -->
+    <script src="assets/js/scrollReveal.js"></script>
+    <!--  Scroll Scripts --> 
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <!--  Custom Scripts --> 
+    <script src="assets/js/custom.js"></script>
+    <!-- Sign Up Popup Script -->
+    <script src="assets/js/signup.js"></script>
+</body>
+</html>
